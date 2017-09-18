@@ -6,9 +6,10 @@
 <script type="text/javascript">
  var user=getParam("user");
  var album=getParam("album");
+ var apikey=getParam("apikey");
  var jsonarea = document.getElementById("JsonArea")
  var listofLinks = []
- var imgLink =  "https://api.flickr.com/services/rest/?method=flickr.photosets.getPhotos&api_key=0e450103bb3fd5ca2b37490c426e9be4&photoset_id=72157688222332005&user_id=147792401%40N05&format=json&nojsoncallback=1"
+ var imgLink =  "https://api.flickr.com/services/rest/?method=flickr.photosets.getPhotos&api_key="+apikey+"&photoset_id="+album+"&user_id="+user+"&format=json&nojsoncallback=1"
  $.get(imgLink, function(data, status){
    console.log(data)
    data.photoset.photo.forEach(function(element){

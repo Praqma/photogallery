@@ -20,6 +20,9 @@ This will generate images in Json format for the carousel
   <div style="width: 140px;display: block;float: left;">Albumid:</div>
   <input id="album-id" type="text" name="album" style="width:250px;">
   <br>
+  <div style="width: 140px;display: block;float: left;">Api Key:</div>
+  <input id="album-id" type="text" name="apikey" style="width:250px;">
+  <br>
   <div>&nbsp;</div>
   <div style="width: 140px;display: block;float: left;">&nbsp;</div><input type="submit" value="Submit">
 </form>
