@@ -6,10 +6,30 @@
 <script type="text/javascript">
  var user=getParam("user");
  var album=getParam("album");
- var imgLink = "https://picasaweb.google.com/data/feed/base/user/"+user+"/albumid/"+album
+ var jsonarea = document.getElementById("JsonArea")
+ var listofLinks = []
+ var imgLink =  "https://api.flickr.com/services/rest/?method=flickr.photosets.getPhotos&api_key=0e450103bb3fd5ca2b37490c426e9be4&photoset_id=72157688222332005&user_id=147792401%40N05&format=json&nojsoncallback=1"
  $.get(imgLink, function(data, status){
-   console.log(data + status)
+   console.log(data)
+   data.photoset.photo.forEach(function(element){
+     listofLinks.push(createImgLinks(element.farm, element.server, element.id, element.secret))
+    var temp =  document.createElement("img")
+    temp.src = createImgLinks(element.farm, element.server, element.id, element.secret)
+    console.log(temp)
+    document.body.appendChild(temp)
+   })
+   console.log(jsonarea)
+   listofLinks.forEach(function(element){
+     var atemp = document.createElement("div")
+     atemp.innerHTML = "- " + element
+     document.getElementById("JsonArea").appendChild(atemp)
+   })
+
  })
+ function createImgLinks(farmid, serverid, photoid, secret){
+    var linkstart = "http://farm"+farmid+".staticflickr.com/"+serverid+"/"+photoid+"_"+secret+".jpg"
+    return linkstart
+   }
  // $.getJSON('./persons.json', function(persons) {
  //   for (var person in persons) {
  //     if (person == user){
@@ -31,3 +51,4 @@
  //   }
  // });
 </script>
+<div id="JsonArea"></div>
