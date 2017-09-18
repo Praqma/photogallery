@@ -1,0 +1,11 @@
+# Site settings
+title: Praqma's Mailsignature Generator
+tag_text: To Generate - and then copy'n'paste into Google Email setup
+description: ...could definitely be automated one day
+baseurl: /mailsignature
+baseurl_web_host: http://code.praqma.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+exclude: ["README.md"]

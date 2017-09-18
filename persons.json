@@ -1,0 +1,404 @@
+{
+  "adb":{
+    "name":"Adam Bakr Buji",
+    "mail":"adam.buji@praqma.com",
+    "title":"Intern Praqma Norway",
+    "office":"Praqma Oslo",
+    "github":"adambuji"
+  },
+  "ady": {
+    "name":"Andrey Devyatkin",
+    "mail":"andrey@praqma.com",
+    "title":"CEO Praqma Sweden",
+    "cell":"+46 73 081 94 92",
+    "office":"Praqma Stockholm",
+    "github":"andrey9kin"
+  },
+  "ah": {
+    "name":"Adam Henriques",
+    "mail":"ah@praqma.net",
+    "title":"Sales & Marketing",
+    "cell":"+45 28 12 90 94",
+    "skype":"adamhenriques",
+    "office":"Praqma Copenhagen",
+    "github":"adamhenriques"
+  },
+   "alp": {
+    "name":"Alexandros Papadopoulos",
+    "mail":"alp@praqma.net",
+    "title":"Consultant",
+    "cell":"+45 91 94 30 98",
+    "office":"Praqma Odense",
+    "github":"alpap"
+  },
+    "alr": {
+    "name":"Albert Rigo",
+    "mail":"alr@praqma.net",
+    "title":"Consultant",
+    "cell":"+46 70 389 96 40",
+    "office":"Praqma Malmö",
+    "github":"kvarak"
+  },
+  "als": {
+    "name":"Alexandra Sedova",
+    "mail":"alexandra@praqma.com",
+    "title":"Consultant",
+    "cell":"+46 72 218 64 20",
+    "office":"Praqma Stockholm",
+    "github":"alexsedova"
+  },
+  "anc": {
+    "name":"Aneta Čamová",
+    "mail":"anc@praqma.com",
+    "title":"Intern",
+    "cell":"+45 52 82 55 36",
+    "office":"Praqma Aarhus",
+    "github":"anetacamo"
+  },
+  "ara": {
+    "name":"Arinze George Akubue",
+    "mail":"ara@praqma.net",
+    "title":"Consultant",
+    "cell":"+47 48 63 46 39",
+    "office":"Praqma Oslo",
+    "github":"arinzeakubue"
+  },
+  "bon": {
+    "name":"Bosse Nyström",
+    "mail":"bon@praqma.net",
+    "title":"Consultant",
+    "cell":"+45 53 82 34 84",
+    "office":"Praqma Malmö",
+    "github":"drbosse"
+  },
+  "bue": {
+    "name":"Bue Petersen",
+    "mail":"bue@praqma.net",
+    "title":"Consultant",
+    "cell":"+45 29 72 64 12",
+    "office":"Praqma",
+    "github":"buep"
+  },
+  "cap": {
+    "name":"Carsten Poulsen",
+    "mail":"cap@praqma.com",
+    "title":"Atlassian Implementer",
+    "cell":"+45 31 50 68 10",
+    "office":"Praqma Copenhagen",
+    "github":"carstenpoulsen"
+  },
+  "car": {
+    "name":"Christian Arentsen",
+    "mail":"car@praqma.com",
+    "title":"Intern",
+    "cell":"+45 23 69 49 04",
+    "office":"Praqma Odense",
+    "github":"carentsen"
+  },
+  "cls": {
+    "name":"Claus Schneider",
+    "mail":"claus.schneider@praqma.com",
+    "title":"Consultant",
+    "cell":"+45 20 64 97 52",
+    "office":"Praqma Copenhagen",
+    "github":"bicschneider"
+  },
+  "cpe": {
+    "name":"Christian Pendleton",
+    "mail":"christian.pendleton@praqma.net",
+    "title":"Senior Consultant",
+    "cell":"+46 730 81 20 41",
+    "office":"Praqma Malmö",
+    "github": "chopse"
+  },
+  "dac": {
+    "name":"David Johannes Christensen",
+    "mail":"dac@praqma.net",
+    "title":"Problem Solver",
+    "cell":"+45 41 13 99 66",
+    "office":"Praqma Odense",
+    "github":"sharor"
+  },
+  "emi": {
+    "name":"Emily Bache",
+    "mail":"emily.bache@praqma.com",
+    "title":"Consultant",
+    "cell":"+46 76 029 47 15",
+    "office":"Praqma Gothenburg",
+    "github":"emilybache"
+  },
+  "epe": {
+    "name":"Edmond Petres",
+    "mail":"epe@praqma.com",
+    "title":"Intern",
+    "cell":"+45 50 20 11 80",
+    "office":"Praqma Plex",
+    "github":"edipetres"
+  },
+  "ewe": {
+    "name":"Ewelina Wilkosz",
+    "mail":"ewe@praqma.com",
+    "title":"Consultant",
+    "cell":"+45 50 23 58 43",
+    "office":"Praqma Copenhagen",
+    "github":"ewelinawilkosz2"
+  },
+  "flo": {
+    "name":"Florent Haxha",
+    "mail":"flo@praqma.com",
+    "title":"Consultant",
+    "cell":"+45 28 71 78 06",
+    "office":"Praqma Plex",
+    "github":"kryptag"
+  },
+  "han": {
+    "name":"Hans Georg Naesheim",
+    "mail":"han@praqma.com",
+    "title":"Consultant",
+    "cell":"+47 93 49 05 11",
+    "office":"Praqma Norway",
+    "github":"naesheim"
+  },
+  "heh": {
+    "name":"Henrik Hoegh",
+    "mail":"heh@praqma.net",
+    "title":"Consultant",
+    "cell":"+45 25 18 84 20",
+    "office":"Praqma Aarhus",
+    "github":"hoeghh"
+  },
+  "jac": {
+    "name":"Jasmine Crozier",
+    "mail":"jac@praqma.net",
+    "title":"Event Manager",
+    "cell":"+45 26 45 92 29",
+    "office":"Praqma Copenhagen",
+    "github":"jasminecrozier"
+  },
+  "jak": {
+    "name":"Jan Krag",
+    "mail":"jak@praqma.net",
+    "title":"Continuous Improvement Agent",
+    "cell":"+45 26 88 23 84",
+    "office":"Praqma Copenhagen",
+    "github":"jkrag"
+  },
+    "jeb": {
+    "name":"Jenny Bjorneberg",
+    "mail":"jeb@praqma.net",
+    "title":"Consultant",
+    "cell":"+46 730 78 79 80",
+    "office":"Praqma Stockholm",
+    "github":"carmosin"
+  },
+  "joa": {
+    "name":"Johan Abildskov",
+    "mail":"joa@praqma.net",
+    "title":"Consultant",
+    "cell":"+45 61 69 79 81",
+    "office":"Praqma Aarhus",
+    "github":"randomsort"
+  },
+  "jov": {
+    "name":"Johan Virtanen",
+    "mail":"jov@praqma.net",
+    "title":"Account Manager & Marketing",
+    "cell":"+46 73 081 02 52",
+    "office":"Praqma Stockholm",
+    "github":"jovirt"
+  },
+  "jrv": {
+    "name":"Jonas Vinther",
+    "mail":"jv@praqma.net",
+    "title":"Consultant",
+    "cell":"+45 28 72 20 92",
+    "office":"Praqma Aarhus",
+    "github":"jonasvinther"
+  },
+  "jsl": {
+    "name":"Jesper Scheuer-Larsen",
+    "mail":"jsl@praqma.net",
+    "title":"Sales & Marketing",
+    "cell":"+45 20 400 800",
+    "office":"Praqma Copenhagen",
+    "github":"jesperscheuer"
+  },
+  "kaz": {
+    "name":"Kamran Azeem",
+    "mail":"kaz@praqma.net",
+    "title":"Consultant",
+    "cell":"+47 455 71 149",
+    "office":"Praqma Norway",
+    "github":"kamranazeem"
+  },
+  "lak": {
+    "name":"Lars Kruse",
+    "mail":"lak@praqma.net",
+    "title":"Partner & Co-founder",
+    "cell":"+45 20 87 25 30",
+    "github":"lakruzz",
+    "office":"Praqma Plex"
+  },
+  "lel": {
+    "name":"Leonard Lee",
+    "mail":"leonard.lee@praqma.com",
+    "title":"Praqtitioner",
+    "cell":"+47 947 86 588",
+    "office":"Praqma Oslo",
+    "github":"sheeeng"
+  },
+  "les": {
+    "name":"Leif S&oslash;rensen",
+    "mail":"les@praqma.net",
+    "title":"Partner & Co-founder",
+    "cell":"+45 22 93 69 00",
+    "skype":"leifsore",
+    "office":"Praqma Copenhagen",
+    "github":"les-praqma"
+  },
+  "mak": {
+    "name":"Marie Kruse",
+    "mail":"mak@praqma.com",
+    "title":"Photographer and Content Assistant",
+    "cell":"+45 20 83 25 20",
+    "office":"Praqma Copenhagen",
+    "github":"marielkruse"
+  },
+  "mam": {
+    "name":"Martin Amdisen",
+    "mail":"martin.amdisen@praqma.com",
+    "title":"Consultant",
+    "cell":"+45 29 33 69 26",
+    "office":"Praqma Aarhus",
+    "github":"martinmosegaard"
+  },
+  "man": {
+    "name":"Mads Nielsen",
+    "mail":"man@praqma.net",
+    "title":"Consultant",
+    "cell":"+45 50 98 18 09",
+    "skype":"inkspot",
+    "office":"Praqma Copenhagen",
+    "github":"madsnielsen"
+  },
+  "mba": {
+    "name":"Mads Baggesen",
+    "mail":"mba@praqma.com",
+    "title":"Consultant",
+    "cell":"+45 24 62 54 47",
+    "office":"Praqma Aarhus",
+    "github":"madsbaggesen"
+    },
+  "moc": {
+    "name":"Morten Christensen",
+    "mail":"morten@praqma.com",
+    "title":"Consultant",
+    "cell":"+45 53 60 72 07",
+    "office":"Praqma Copenhagen",
+    "github":"mortench3000"
+  },
+  "mim": {
+    "name":"Michael Frikke Madsen",
+    "mail":"michael.madsen@praqma.com",
+    "title":"Consultant",
+    "cell":"+45 22 62 77 02",
+    "office":"Praqma Copenhagen",
+    "github":"michaelmadsen"
+  },
+  "mil": {
+    "name":"Mike Long",
+    "mail":"mike@praqma.com",
+    "title":"Partner &<br/>CEO Praqma Norway",
+    "cell":"+47 48 67 63 60",
+    "office":"Praqma Oslo",
+    "github":"meekrosoft"
+  },
+  "nig": {
+    "name":"Nicolaj Græsholt",
+    "mail":"ng@praqma.net",
+    "title":"Consultant",
+    "cell":"+45 53 80 00 53",
+    "office":"Praqma Aarhus",
+    "github":"figaw"
+  },
+  "oehc": {
+    "name":"Oliver Emil Harritslev Christensen",
+    "mail":"oehc@praqma.com",
+    "title":"Student programmer",
+    "cell":"+45 30 27 49 52",
+    "office":"Praqma Aarhus",
+    "github":"oehc"
+  },
+  "saa": {
+    "name":"Sami Alajrami",
+    "mail":"sami@praqma.com",
+    "title":"DevOps Consultant",
+    "cell":"+47 46 37 75 71",
+    "office":"Praqma Oslo",
+    "github":"sami-alajrami"
+  },
+  "san": {
+    "name":"Sandra Godinho",
+    "mail":"san@praqma.com",
+    "title":"CoDer Intern",
+    "cell":"+351 96 79 42 639",
+    "office":"Praqma Allerød",
+    "github":"sagodinho"
+  },
+  "say": {
+    "name":"Samuel Ytterbrink",
+    "mail":"say@praqma.com",
+    "title":"Consultant",
+    "cell":"+46 73 441 48 49",
+    "office":"Praqma Gothenburg",
+    "github":"neppord"
+  },
+  "sig": {
+    "name":"Simon Grønborg",
+    "mail":"sig@praqma.com",
+    "title":"Phlow Master",
+    "cell":"+45 21 67 42 41",
+    "office":"Praqma Plex",
+    "github":"groenborg"
+  },
+  "smh": {
+    "name":"Smadar Hansen",
+    "mail":"smh@praqma.com",
+    "title":"Office Manager",
+    "cell":"+45 40 51 50 59",
+    "office":"Praqma Plex",
+    "github":"smadarmhansen"
+  },
+  "sos": {
+    "name":"Sonny Singh",
+    "mail":"sos@praqma.com",
+    "title":"Consultant",
+    "cell":"+45 36 77 27 62",
+    "office":"Praqma Plex",
+    "github":"thakangbaby"
+  },
+  "soa": {
+    "name":"Sofus Albertsen",
+    "mail":"sofus@praqma.com",
+    "title":"Consultant",
+    "cell":"+45 36 77 27 62",
+    "office":"Praqma Copenhagen",
+    "github":"sofusalbertsen"
+  },
+  "thi": {
+    "name":"Thierry Lacour",
+    "mail":"thi@praqma.com",
+    "title":"Automation toolsmith",
+    "cell":"+46 73 239 40 40",
+    "office":"Praqma Malmö",
+    "github":"praqma-thi"
+  },
+  "tim": {
+    "name":"Tim Harris",
+    "mail":"tim@praqma.com",
+    "title":"Consultant",
+    "cell":"+45 42 74 15 34",
+    "office":"Praqma Plex",
+    "github":"praqmatim"
+  }
+}
