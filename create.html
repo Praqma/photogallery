@@ -11,13 +11,13 @@
  var listofLinks = []
  var imgLink =  "https://api.flickr.com/services/rest/?method=flickr.photosets.getPhotos&api_key="+apikey+"&photoset_id="+album+"&user_id="+user+"&format=json&nojsoncallback=1"
  $.get(imgLink, function(data, status){
-   console.log(data)
+   //console.log(data)
    data.photoset.photo.forEach(function(element){
      listofLinks.push(createImgLinks(element.farm, element.server, element.id, element.secret))
-    var temp =  document.createElement("img")
-    temp.src = createImgLinks(element.farm, element.server, element.id, element.secret)
-    console.log(temp)
-    document.body.appendChild(temp)
+    // var temp =  document.createElement("img")
+    // temp.src = createImgLinks(element.farm, element.server, element.id, element.secret)
+    // console.log(temp)
+    // document.body.appendChild(temp)
    })
    console.log(jsonarea)
    listofLinks.forEach(function(element){
