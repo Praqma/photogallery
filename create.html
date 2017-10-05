@@ -1,8 +1,18 @@
 ---
 ---
+
+<!-- these are tools and dependencies -->
 <script type="text/javascript" src="{{ site.baseurl_web_host }}/javascripts/jquery-1.11.1.js"></script>
 <script type="text/javascript" src="{{ site.baseurl_web_host }}/javascripts/praqmajsutils.js"></script>
 <script src="https://use.fontawesome.com/b7fcee6475.js"></script>
+
+<!-- We need to load the HTML first or else we can run into errors with null pointers -->
+<button class="copybtn" style="width: 100px; height: 35px; margin:25px;">COPY JSON</button>
+<div id="JsonArea" style="margin-left:25px;">
+</div>
+<h2></h2>
+
+
 <script type="text/javascript">
  var user=getParam("user");
  var album=getParam("album");
@@ -11,45 +21,39 @@
  var listofLinks = []
  var imgLink =  "https://api.flickr.com/services/rest/?method=flickr.photosets.getPhotos&api_key="+apikey+"&photoset_id="+album+"&user_id="+user+"&format=json&nojsoncallback=1"
  $.get(imgLink, function(data, status){
-   //console.log(data)
-   data.photoset.photo.forEach(function(element){
-     listofLinks.push(createImgLinks(element.farm, element.server, element.id, element.secret))
-    // var temp =  document.createElement("img")
-    // temp.src = createImgLinks(element.farm, element.server, element.id, element.secret)
-    // console.log(temp)
-    // document.body.appendChild(temp)
-   })
-   console.log(jsonarea)
-   listofLinks.forEach(function(element){
-     var atemp = document.createElement("div")
-     atemp.innerHTML = "- " + element
-     document.getElementById("JsonArea").appendChild(atemp)
-   })
 
+  //  data.photoset.photo.forEach(function(element){
+  //    listofLinks.push(createImgLinks(element.farm, element.server, element.id, element.secret))
+  //  })
+
+  //  listofLinks.forEach(function(element){
+  //    var atemp = document.createElement("div")
+  //    atemp.innerHTML = "- " + element
+  //    document.getElementById("JsonArea").appendChild(atemp)
+  //  })
+    var jaysonPic = JSON.stringify(data.photoset.photo)
+    document.getElementById("JsonArea").innerHTML = jaysonPic
  })
  function createImgLinks(farmid, serverid, photoid, secret){
     var linkstart = "http://farm"+farmid+".staticflickr.com/"+serverid+"/"+photoid+"_"+secret+".jpg"
     return linkstart
    }
- // $.getJSON('./persons.json', function(persons) {
- //   for (var person in persons) {
- //     if (person == user){
- //       var person = persons[person];
- //       document.getElementById("name").innerHTML = person.name;
- //       document.getElementById("title").innerHTML = person.title;
- //       document.getElementById("office").innerHTML = person.office;
- //       document.getElementById("cell").innerHTML = person.cell;
- //       document.getElementById('mail').innerHTML = person.mail;
- //       if (typeof person.skype != 'undefined') { //Skype is optional - hence the fuzz
- //         document.getElementById("skype").innerHTML = 'Skype: '+person.skype;
- //       }
- //       else {
- //         var skypeEle = document.getElementById('skype');
- //         skypeEle.parentNode.removeChild(skypeEle.nextSibling.nextSibling)
- //         skypeEle.remove();
- //       }
- //     }
- //   }
- // });
+   var copyTextareaBtn = document.querySelector('.copybtn');
+
+   copyTextareaBtn.addEventListener('click', function(event) {
+     var copy_text = document.getElementById("JsonArea");
+     var range = document.createRange();
+     range.selectNode(copy_text);
+     window.getSelection().addRange(range);
+
+     try {
+       var successful = document.execCommand('copy');
+       var msg = successful ? 'successful' : 'unsuccessful';
+       var feedback = document.getElementsByTagName("H2")[0]
+       feedback.innerHTML = 'Copying text command was ' + msg
+       console.log('Copying text command was ' + msg);
+     } catch (err) {
+       console.log('Oops, unable to copy');
+     }
+   })
 </script>
-<div id="JsonArea"></div>
