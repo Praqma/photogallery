@@ -29,6 +29,6 @@ This will generate images in Json format for the carousel
 
 ## What do I do?
 
-* Fill out the three fields and the press submit, this will redirect you to a page with JSON copy the data. You can use the copy button to do it for you. Now paste it into a file with a name of you choice. remember it must end with the file-extension `.json` Example `something.json`
+* Fill out the three fields and the press submit. This will redirect you to a page with JSON copy the data. You can use the copy button to do it for you. Now paste it into a file with a name of you choice. remember it must end with the file-extension `.json` Example `something.json`
 * Save the file you just created into the folder called `_json-images` in code-conf
 * Remember to link the file through your `event.md` page, it would make sense to use a name that can be related to the specific event.
